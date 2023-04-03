@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <p class="saint">SAINT UNIVERSITY</p>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>  
+   <h1>Our Certiificate & online Programs For 2023 </h1> 
+    </section>
+    <!------------------blog page -------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certiificate & online Programs For 2023 </h2>
+            <p>School or work teams often hold community service events. They’re a great way to build team unity while also helping others. Because this is exactly the kind of activity in which studies have shown monetary awards can backfire, an award certificate provides an affordable yet tangible, “Thank you,” that everyone will appreciate.</p>
+            <br>
+            <p>Did your team knock it out of the park on a recent project? Free lunches may be appreciated but quickly forgotten. However, a printed award certificate can commemorate your team’s achievement in a way that lasts for years.
+            </p>
+            <br>
+            <p>Children love receiving awards. Free printable award certificates provide teachers with an easy and inexpensive way to inspire good behavior. Want to encourage keeping quiet or sitting still during story time? Even the smallest achievements can be celebrated when the associated cost is as low as printing a sheet of paper.</p>
+            <br>
+            <p> Continuing education is of the utmost importance to today’s employers. Employees can remind others that they’re staying in the game by proudly displaying award certificates to show their accomplishments. Trainers can create a certificate with course titles, dates, and important attendee information.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Entername">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Computer Engineer</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Business Management</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Medical Science</span>
+                <span>38</span>
+            </div>
+            <div>
+                <span>Laboratory Science</span>
+                <span>32</span>
+            </div>
+        </div>
+    </div>
+</section>
+    
+                
+
+
+<!------------------footer-------->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Saint University is the Best Private University in United state, We Offer a Great Platform to <br>Create a Dynamic Learning Environment</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by saint sammie </p>
+</section>
+
+
+    <!--------------javascript for toggle menu -------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+           
+        
+    </script>
+</body>
+</html>
